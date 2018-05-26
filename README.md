@@ -1,11 +1,11 @@
 # nodemailer-promisify
-
 A promisified class for nodemailer lib:
+
 https://nodemailer.com
 
 ## Installation
 ```bash
-npm i git+https://github.com/AoiYamada/nodemailer-promisify --save
+npm i nodemailer-promisify --save
 ```
 
 ## Examples
