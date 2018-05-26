@@ -2,10 +2,10 @@ const chai = require('chai');
 const assert = chai.assert;
 const expect = chai.expect;
 const should = chai.should();
-// const path = require('path');
+const path = require('path');
 const CWD = process.cwd();
 
-const { Nodemailer } = require(CWD);
+const { Nodemailer } = require(path.join(CWD, 'Nodemailer'));
 
 describe('Nodemailer', () => {
     let mailer;
